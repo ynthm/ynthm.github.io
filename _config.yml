@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.ynthm.com
+url: https://ynthm.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,8 +72,14 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins: hexo-generate-feed
 ## Themes: https://hexo.io/themes/
 theme: next
+search:
+     path: search.xml
+     field: post
+     format: html
+     limit: 1000012345
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
